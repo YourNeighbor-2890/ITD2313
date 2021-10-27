@@ -1,7 +1,0 @@
-wage = float(input("Enter your wage: "))
-time = float(input("Enter your regular working hours: "))
-OT = float(input("Enter your total overtime: "))
-preOT = float(wage * time)
-OTwage = float(OT *1.5)
-Total = float( preOT + OTwage)
-print("You made $" ,Total)
